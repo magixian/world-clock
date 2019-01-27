@@ -1,0 +1,79 @@
+.clock-component {
+  position: absolute;
+  width: 360px;
+  height: 310px;
+  left: calc(50% - 360px/2);
+  top: calc(50% - 310px/2);
+}
+
+.time-frame {
+  position: absolute;
+  width: 250px;
+  height: 210px;
+  left: calc(50% - 250px/2);
+}
+
+.time-frame-box {
+  position: absolute;
+  width: 250px;
+  height: 210px;
+}
+
+.time-label {
+  position: absolute;
+  width: 163.04px;
+  height: 185.85px;
+  left: calc(50% - 163.04px/2 - 0.48px);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 88px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.button-frame {
+  position: absolute;
+  width: 360px;
+  height: 100px;
+  left: calc(50% - 360px/2);
+  top: calc(50% - 100px/2 + 105px);
+}
+
+.button-box {
+  position: absolute;
+  width: 250px;
+  height: 42px;
+  left: calc(50% - 250px/2);
+  top: calc(50% - 42px/2);
+}
+
+.button-box-rect {
+  position: absolute;
+  width: 250px;
+  height: 42px;
+  left: calc(50% - 250px/2);
+  top: calc(50% - 42px/2);
+
+  background: #FFFFFF;
+}
+
+.button-label {
+  position: absolute;
+  width: 90px;
+  height: 18px;
+  left: calc(50% - 90px/2);
+  top: calc(50% - 18px/2);
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 17px;
+  text-align: center;
+
+  color: #222B43;
+}

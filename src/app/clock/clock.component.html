@@ -1,0 +1,15 @@
+<div class="clock-component">
+  <div class="time-frame" *ngIf="clock">
+    <div class="time-frame-box">
+      <span class="time-label">{{clock.time}}<br/>
+      </span>
+    </div>
+  </div>
+  <div class="button-frame">
+    <div class="button-box">
+      <div class="button-box-rect" (click)="getTime()">
+        <span class="button-label">Get Time</span>
+      </div>
+    </div>
+  </div>
+</div>
